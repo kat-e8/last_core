@@ -51,7 +51,7 @@ services:
       restart: unless-stopped
     ports:
       - 1083:1080
-      - 1028:1025
+      - 1029:1025
     networks:
       gw-network:
         aliases:
