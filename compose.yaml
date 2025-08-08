@@ -25,7 +25,7 @@ services:
     restart: unless-stopped
     command: >
       -n gw
-      -m 2048
+      -m 1024
 #      -r /restore.gwbk
   sqldb:
     image: mcr.microsoft.com/mssql/server:2019-latest
